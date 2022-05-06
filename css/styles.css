@@ -401,7 +401,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
 
