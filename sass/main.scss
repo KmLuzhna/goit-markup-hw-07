@@ -1,20 +1,18 @@
-
-@import './utils/variables';
-@import './base/normalize';
-@import './base/my-normalize';
-@import './utils/mixin';
+@import './utils/variable';
+@import './utils/minix';
+@import './base/my-normslize';
+@import './base/normaize';
+@import './components/page-header';
 @import './components/logo';
 @import './components/page-header';
+@import './components/social-icon';
 @import './components/main-section';
 @import './components/feature';
 @import './components/works';
 @import './components/team';
 @import './components/clients';
-@import './components/social-icons';
 @import './components/page-footer';
 @import './components/subscription';
-@import './components/filters';
-@import './components/projects';
 @import './components/modal-open-and-close';
-@import './components/modal-form-input';
-@import './components/modal-checkbox-and-button';
+@import './components/modal-form-inputs'
+    

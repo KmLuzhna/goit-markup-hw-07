@@ -15,7 +15,7 @@
     border: 1px solid var(--icon-color);
     box-sizing: border-box;
     border-radius: 4px;
-    @include animatoin($fill, border);
+    @include animation(fill border);
 
     &:hover,
     &:focus {
@@ -23,4 +23,3 @@
     border-color: var(--accent-color);
   }
   }
-  

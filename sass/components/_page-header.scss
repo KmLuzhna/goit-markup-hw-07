@@ -21,7 +21,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration-line: none;
-    @include animatoin($color);
+    @include animation(color);
 
     &:hover,
     &:focus {
@@ -64,7 +64,7 @@
     line-height: 1.4;
     letter-spacing: 0.02em;
     text-decoration-line: none;
-    @include animatoin ($fill, color);
+    @include animation(fill color);
   
     &:hover,
     &:focus {
