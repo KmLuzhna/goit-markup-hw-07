@@ -24,7 +24,7 @@
     border-radius: 4px;
     border: none;
     padding: 6px 22px;
-    @include animatoin ($background-color, color, box-shadow);
+    @include animatoin($background-color, color, box-shadow);
 
     &:hover,
     &:focus {

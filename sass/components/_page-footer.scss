@@ -28,7 +28,7 @@
     letter-spacing: 0.03em;
     font-style: normal;
     text-decoration-line: none;
-    @include animatoin ($color);
+    @include animatoin($color);
 
     &:hover,
     &:focus {
@@ -42,7 +42,7 @@
     letter-spacing: 0.03em;
     font-style: normal;
     text-decoration-line: none;
-    @include animatoin ($color);
+    @include animatoin($color);
 
     &:hover,
     &:focus {

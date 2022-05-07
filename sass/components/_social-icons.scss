@@ -11,9 +11,9 @@
     @include centeredFlex($type: flex);
     width: 44px;
     height: 44px;
-    border-radius: 50%;
+    
     fill: var(--icon-color);
-    @include animatoin ($fill, background-color);
+    @include animatoin($fill, background-color);
     
     &:hover,
     &:focus {
@@ -43,5 +43,5 @@
     border-radius: 50%;
     fill: var(--primary-white-color);
     background-color: var(--background-item-footer);
-    @include animatoin ($background-color);
+    @include animatoin($background-color);
   }
