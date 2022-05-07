@@ -2,6 +2,7 @@
     padding: 40px;
   }
   .form__title{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -9,6 +10,7 @@
     letter-spacing: 0.03em;
     color: var(--title-color);
     margin-bottom: 12px;
+    
   }
   
   .form__label {
