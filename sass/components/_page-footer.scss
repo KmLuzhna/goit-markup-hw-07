@@ -23,9 +23,7 @@
 
   .address-list__map {
     color: var(--primary-white-color);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include text-size(14px, 1.71, $spacing: 0.03em);
     font-style: normal;
     text-decoration-line: none;
     @include animation(color);
@@ -38,9 +36,7 @@
   
   .address-list__link {
     color: var(--whitecolor-60color);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include text-size(14px, 1.71, $spacing: 0.03em);
     font-style: normal;
     text-decoration-line: none;
     @include animation(color);

@@ -8,13 +8,11 @@
 }
 
 .filters__button {
+  text-align: center;
   background-color: var(--light-background-color);
   color: var(--title-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+  @include text-size(16px, 1.62, $spacing: 0.03em);
   cursor: pointer;
   border-radius: 4px;
   border: none;

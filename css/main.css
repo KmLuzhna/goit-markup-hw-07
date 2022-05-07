@@ -14,7 +14,7 @@
   --placeholder-color: rgba(117, 117, 117, 0.5);
 }
 
-body {
+.body {
   font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--primary-white-color);
@@ -409,6 +409,9 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 32px 0;
   color: var(--text-color);
   fill: var(--text-color);
@@ -536,6 +539,9 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 32px 0;
   color: var(--text-color);
   fill: var(--text-color);
@@ -666,8 +672,8 @@ summary {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   max-width: 696px;
   margin: 0px auto 30px;
@@ -785,10 +791,10 @@ summary {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   height: 16px;
-  font-size: 14px;
-  line-height: 1.43;
   font-weight: 700;
   text-align: center;
+  font-size: 14px;
+  line-height: 1.43;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   text-transform: uppercase;
@@ -828,16 +834,16 @@ summary {
   margin-bottom: 10px;
   color: var(--title-color);
   font-weight: 500;
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-list__text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -1081,12 +1087,12 @@ summary {
 }
 
 .filters__button {
+  text-align: center;
   background-color: var(--light-background-color);
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
   border-radius: 4px;
@@ -1158,8 +1164,8 @@ summary {
 }
 
 .projects__text {
-  font-size: 16px;
   color: var(--text-color);
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
@@ -1301,8 +1307,8 @@ summary {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-color);
   margin-bottom: 12px;
 }
@@ -1318,7 +1324,7 @@ summary {
           flex-direction: column;
   margin-bottom: 10px;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.66;
   letter-spacing: 0.01em;
   color: var(--text-color);
 }
@@ -1374,7 +1380,7 @@ summary {
           flex-direction: column;
   height: 120px;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.66;
   letter-spacing: 0.01em;
   color: var(--text-color);
 }
@@ -1436,7 +1442,7 @@ summary {
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 14px;
-  line-height: 1.714px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
@@ -1493,7 +1499,8 @@ summary {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   border: none;
   cursor: pointer;
 }

@@ -32,11 +32,9 @@
     left: 50%;
     transform: translate(-50%);
     height: 16px;
-    font-size: 14px;
-    line-height: 1.43;
     font-weight: 700;
     text-align: center;
-    letter-spacing: 0.03em;
+    @include text-size(14px, 1.43, $spacing: 0.03em);
     color: var(--primary-white-color);
     text-transform: uppercase;
     z-index: 1;

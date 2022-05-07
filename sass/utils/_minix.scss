@@ -8,3 +8,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@mixin text-size($size, $height, $spacing: 0.03em) {
+  font-size: $size;
+  line-height: $height;
+  letter-spacing: $spacing;
+}
