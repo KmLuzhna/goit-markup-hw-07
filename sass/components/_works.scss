@@ -32,11 +32,8 @@
     left: 50%;
     transform: translate(-50%);
     height: 16px;
-    font-weight: 700;
     text-align: center;
-    @include text-size(14px, 1.43, $spacing: 0.03em);
     color: var(--primary-white-color);
-    text-transform: uppercase;
     z-index: 1;
     white-space: nowrap
   }

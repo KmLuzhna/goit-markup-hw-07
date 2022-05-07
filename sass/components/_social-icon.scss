@@ -27,11 +27,8 @@
   }
   
   .footer-social__title {
-    font-weight: 700;
-    @include text-size(14px, 1.14, $spacing: 0.03em);
-    text-transform: uppercase;
-    color: var(--primary-white-color);
     margin-bottom: 20px;
+    color: var(--primary-white-color);
   }
   
   .footer-social-list__link {
